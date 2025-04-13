@@ -1,61 +1,57 @@
+/* Dark Theme Styles */
 body {
+    background-color: #121212;
+    color: #e0e0e0;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    padding: 40px;
-    background-color: #f7f8fa;
-    color: #333;
+    margin: 2rem;
 }
 
-h1 {
-    color: #2c3e50;
-    margin-bottom: 30px;
-}
-
-form {
-    margin-bottom: 30px;
+h1, h2 {
+    color: #ffffff;
 }
 
 input[type="text"] {
-    padding: 10px;
-    width: 250px;
-    border-radius: 8px;
-    border: 1px solid #ccc;
+    padding: 8px;
+    border: none;
+    border-radius: 4px;
+    background-color: #1e1e1e;
+    color: #ffffff;
     margin-right: 10px;
 }
 
-button {
-    padding: 10px 15px;
+button, input[type="submit"] {
+    background-color: #bb86fc;
+    color: #121212;
     border: none;
-    background-color: #2ecc71;
-    color: white;
-    border-radius: 8px;
+    padding: 8px 12px;
+    border-radius: 4px;
     cursor: pointer;
-    font-weight: bold;
+    transition: background-color 0.2s;
 }
 
-button:hover {
-    background-color: #27ae60;
+button:hover, input[type="submit"]:hover {
+    background-color: #985eff;
 }
 
-.habit {
-    padding: 15px;
-    background-color: white;
-    border-radius: 10px;
-    box-shadow: 0 0 5px rgba(0,0,0,0.1);
-    margin-bottom: 15px;
-}
-
-.habit a {
-    margin-left: 15px;
-    color: #3498db;
+a {
+    color: #bb86fc;
     text-decoration: none;
     font-weight: bold;
 }
 
-.habit a:hover {
+a:hover {
     text-decoration: underline;
 }
 
-.stats {
-    margin-top: 5px;
-    color: #16a085;
+.streak {
+    color: #03dac6;
+    font-weight: bold;
+}
+
+.habit-entry {
+    margin-bottom: 12px;
+    padding: 10px;
+    background-color: #1e1e1e;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(187, 134, 252, 0.1);
 }
